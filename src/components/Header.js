@@ -16,6 +16,7 @@ import {
   } from "react-router-dom";
 import Home from './Page/Home';
 import Login from './Page/Login';
+import Portal from './Page/Portal';
 
 const Header = () => {
     return (
@@ -52,6 +53,9 @@ const Header = () => {
                 </nav>
                 <Switch>
                     <Route exact path="/">
+                        <Portal />
+                    </Route>
+                    <Route exact path="/home">
                         <Home />
                     </Route>
                     <Route exact path="/about-us">
