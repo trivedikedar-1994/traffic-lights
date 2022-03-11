@@ -1,0 +1,49 @@
+.header-navbar {
+    -webkit-transition: all 500ms ease-in-out;
+    -khtml-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+}
+
+@media (min-width: 992px) {
+    .header-navbar {
+        padding: 0;
+        -webkit-transition: all 500ms ease-in-out;
+        -khtml-transition: all 500ms ease-in-out;
+        -moz-transition: all 500ms ease-in-out;
+        -ms-transition: all 500ms ease-in-out;
+        -o-transition: all 500ms ease-in-out;
+        transition: all 500ms ease-in-out;
+    }
+}
+.header-navbar .nav-item .nav-link.active {
+    font-family: var(--font-avenir-black);			
+} 
+.header-navbar .nav-item .nav-link {
+    font-family: var(--font-avenir-book);
+    font-weight: normal; 
+    line-height:  115%;
+    display: block;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #707070;
+}
+.header-navbar .nav-item .nav-link {
+    padding: 20px 15px;
+}
+.header-navbar .nav-item.active .nav-link {
+    font-family: var(--font-avenir-black);
+    font-weight: 700;
+}
+@media (min-width: 1200px) { 
+    .header-navbar .nav-item .nav-link {
+        font-size: 20px;
+    }
+}
+@media (min-width: 992px) {
+    .header-navbar .nav-item .nav-link {
+        font-size: 20px; 
+    }
+}

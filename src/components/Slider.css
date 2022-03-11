@@ -1,0 +1,61 @@
+.banner_slider {
+    height: 612px;
+    padding-bottom: 47px;
+  }
+  .banner_slider .owl-carousel,
+  .banner_slider .owl-stage-outer,
+  .banner_slider .owl-stage,
+  .banner_slider .owl-stage .owl-item,
+  .banner_slider .owl-stage .owl-item .item {
+      height: 100%;
+  }
+  .bnnr_sld_sc {
+    height: 100%;
+  }
+  .banner_img, .banner_img img {
+    height: 100%;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+      position: absolute;
+      top: 0;
+      z-index: 0;
+  }
+  .bnnr_sld_sc .container {
+      position: relative;
+      height: 100%;
+      z-index: 99;
+  }
+  .bnnr_sld_sc .container .banner_desc {
+      position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  }
+  .banner_desc .title {
+      font-family: var(--font-avenir-black);
+    margin: 0 0 20px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .banner_desc .content {
+      font-family: var(--font-avenir-book);
+    color: #fff;
+  }
+
+  @media (min-width: 1200px) {
+    .banner_desc .title {
+      font-size: 120px;
+    }
+    .banner_desc .content {
+      font-size: 25px;
+    }
+  }
+  @media (min-width: 992px) {
+    .banner_desc .title {
+      font-size: 100px;
+    }
+    .banner_desc .content {
+      font-size: 22px;
+    }
+  }
+

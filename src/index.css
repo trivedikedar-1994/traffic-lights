@@ -1,0 +1,58 @@
+:root {
+	--color-primary: #807A52;
+	--color-green: #28340c;
+	--bg-lggreen: #F5F4EA;
+	--bg-mdgreen: #76774D;
+	--bg-white: #ffffff;
+	--white: #ffffff;
+	--bg-transperant: transparent;
+	--color-black: #111111;
+	--color-darkgray: #707070;
+	--radius-10: 10px;
+	--radius-30: 30px;
+	--font-open-reg: 'OpenSans Regular';
+	--font-open-bold: 'OpenSans Bold';
+	--font-avenir-book: 'Avenir Book';
+	--font-avenir-roman: 'Avenir Roman';
+	--font-avenir-black: 'Avenir Black';
+	--font-helvetica: 'Helvetica';
+}
+
+@font-face {
+	font-family: 'Avenir Book';
+	font-stretch: normal;
+	font-style: normal;
+	src: url("assets/fonts/AvenirLTStd-Book.otf");
+}
+@font-face {
+	font-family: 'Avenir Black';
+	font-stretch: normal;
+	font-style: normal;
+	src: url("assets/fonts/AvenirLTStd-Black.otf");
+}
+@font-face {
+	font-family: 'Helvetica';
+	src: url('assets/fonts/Helvetica.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+.footer-bottom {
+	padding: 25px 30px;
+	background: rgb(175,1,128);
+	background: linear-gradient(-90deg, rgba(175,1,128,1) 0%, rgba(104,28,73,1) 48%);
+}
+.footer_widget p,
+.footer_widget span,
+.footer_widget .menu_list .menu_item a {
+	color: var(--white);
+} 
+
+.footer_widget p, .footer_widget span, .footer_widget .menu_list .menu_item a {
+    color: var(--white);
+}
+
+ol, ul {
+    list-style: none;
+}
